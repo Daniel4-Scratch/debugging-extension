@@ -1,0 +1,44 @@
+{
+    "name": "Debugging",
+    "description": "A shortcut to firefox debugging page",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": ["tabs"],
+    
+    "browser_action": {
+        "browser_style": true,
+        "default_icon": {
+          "16": "/icons/icon16.png",
+          "32": "/icons/icon32.png"
+        },
+        "default_title": "Debugging",
+        "theme_icons": [{
+          "light": "icons/icon-light16.png",
+          "dark": "icons/icon-dark32.png",
+          "size": 16
+        }, {
+          "light": "icons/icon-light16.png",
+          "dark": "icons/icon-dark32.png",
+          "size": 32
+        }]
+      },
+
+    "icons": {
+      "16": "/icons/icon16.png",
+      "48": "/icons/icon48.png",
+      "128": "/icons/icon128.png"
+    },
+
+    "background":{
+        "scripts": ["background.js"]
+      }, 
+  
+    "homepage_url": "https://github.com/Daniel4-Scratch/debugging-extension",
+  
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "llama552621@gmail.com"
+      }
+    }
+  
+}
