@@ -1,12 +1,13 @@
 {
-    "name": "Debugging",
-    "description": "A shortcut to firefox debugging page",
+    "name": "Developer Tools",
+    "description": "shortcut to open developer tools",
     "version": "1.0",
     "manifest_version": 2,
     "permissions": ["tabs"],
     
     "browser_action": {
         "browser_style": true,
+        "default_popup": "popup.html",
         "default_icon": {
           "16": "/icons/icon16.png",
           "32": "/icons/icon32.png"
